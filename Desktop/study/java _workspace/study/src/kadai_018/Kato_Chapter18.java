@@ -22,8 +22,7 @@ abstract public class Kato_Chapter18 {
 	
 	// メソッド　紹介を実行する
 	public void execIntroduce() {
-		System.out.println( "私の名前は" + familyName + givenName + "です。" );
-		System.out.println("住所は" + address + "です。" );
+		commonIntroduce();
 		eachIntroduce();
 	}	
 }
